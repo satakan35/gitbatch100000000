@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class CommonMethods {
 
     public static WebDriver driver;
+
     
     @BeforeMethod(alwaysRun = true)
     public void openBrowser(){
