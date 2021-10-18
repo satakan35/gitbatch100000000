@@ -13,7 +13,7 @@ public class CommonMethods {
 
     public static WebDriver driver;
 
-    
+
     @BeforeMethod(alwaysRun = true)
     public void openBrowser(){
         ConfigReader.readProperties(Constants.CONFIGURATION_FILEPATH);
@@ -30,6 +30,8 @@ public class CommonMethods {
             default:
                 throw new RuntimeException("Invalid browser name");
         }
+
+
         driver.get(ConfigReader.getPropertyValue("url"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
