@@ -1,6 +1,7 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -59,9 +60,17 @@ public class CommonMethods {
         element.click();
     }
 
+    public static JavascriptExecutor getJSExecutor(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        return js;
+    }
+
+    public static void jsClick(WebElement element){
+        getJSExecutor().executeScript("arguments[0].click();", element);
+    }
+
     @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver.quit();
     }
-
 }
