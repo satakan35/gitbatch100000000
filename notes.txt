@@ -1,0 +1,12 @@
+Recap -
+
+What is framework?
+It gives us an organized folder structure to follow while writing the code.
+
+Benefits of framework -
+    -- it increases code reusability, readability, easy to maintain
+
+Maven -
+    -- it is a build automation tool
+
+User stories - 12345 - user should be able to login via valid credentials
