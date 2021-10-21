@@ -23,3 +23,22 @@ US - 34342 -  System should display error messages when invalid login is perform
 
 
 
+Maven - build automation tool
+TestNg - tool for testing
+        to group all test cases
+        to perform batch testing
+        to get reports
+POM - design pattern
+       to maintain page element
+       we create separate java class for every page
+
+DDT - testing the same functionality across multiple/different sets of data
+        Using data provider and excel
+
+    .xls  = HSSFWorkbook
+    .xlsx (newer) = XSSFWorkbook
+
+
+
+
+
