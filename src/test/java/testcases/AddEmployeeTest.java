@@ -19,7 +19,7 @@ import java.util.Map;
 
 public class AddEmployeeTest extends CommonMethods {
 
-    @Test(groups = "smoke")
+    @Test(groups = "smoke1")
     public void addEmployee(){
         //login function
         LoginPage loginpage = new LoginPage();
