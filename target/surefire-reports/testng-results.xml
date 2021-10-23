@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-23T16:48:58 IST" name="All Test Suite" finished-at="2021-10-23T16:49:14 IST" duration-ms="16579">
+    <groups>
+      <group name="smoke">
+        <method signature="AddEmployeeTest.addEmployee()[pri:0, instance:testcases.AddEmployeeTest@27c86f2d]" name="addEmployee" class="testcases.AddEmployeeTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-23T16:48:58 IST" name="C:/Users/sohel.abbasi/workspace/TestNgFrameworkB10" finished-at="2021-10-23T16:49:14 IST" duration-ms="16579">
+      <class name="testcases.AddEmployeeTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.AddEmployeeTest@27c86f2d]" started-at="2021-10-23T16:48:58 IST" name="openBrowser" finished-at="2021-10-23T16:49:04 IST" duration-ms="6363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addEmployee()[pri:0, instance:testcases.AddEmployeeTest@27c86f2d]" started-at="2021-10-23T16:49:04 IST" name="addEmployee" finished-at="2021-10-23T16:49:14 IST" duration-ms="9875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddEmployeeTest@27c86f2d]" started-at="2021-10-23T16:49:14 IST" name="tearDown" finished-at="2021-10-23T16:49:14 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddEmployeeTest -->
+    </test> <!-- C:/Users/sohel.abbasi/workspace/TestNgFrameworkB10 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

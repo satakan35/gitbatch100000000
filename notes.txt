@@ -39,6 +39,15 @@ DDT - testing the same functionality across multiple/different sets of data
     .xlsx (newer) = XSSFWorkbook
 
 
+recap -
+
+volume of data - if it is big, data provider cannot handle this
+
+
+
+
+
+
 
 
 
