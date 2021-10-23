@@ -27,7 +27,7 @@ public class LoginTest extends CommonMethods {
         Object[][] data = {
                 {"James", "123!", "Invalid credentials"},
                 {"Admin1", "Hum@nhrm123", "Invalid credentials"},
-                {"Admin", "", "Password cannot be emp"},
+                {"Admin", "", "Password cannot be empty"},
                 {"", "Hum@nhrm123", "Username cannot be empty"}
         };
         return data;
